@@ -56,3 +56,4 @@ ecoli   4593578 .       C       T       39.3189 .       DP=61;VDB=0.174327;SGB=-
 
 
 Both SRR2584404 and SRR2584403 share the same variant at the locus 4141016. The refernce genome has a C in this location and the variants are an A. 
+They both also share a variant at 1329520, where the ref allele is a T, and the variant is a G. 
