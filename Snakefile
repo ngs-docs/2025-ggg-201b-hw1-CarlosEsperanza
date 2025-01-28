@@ -15,7 +15,7 @@ rule uncompress_genome:
 
 rule map_reads:
     input:
-        reads="{reads}.fastq.gz",
+        reads="../../ctbrown/data/ggg201b/{reads}.fastq.gz",  # Modify path here
         ref="outputs/{genome}.fa"
     output: "outputs/{reads}.x.{genome}.sam"
     shell: """
